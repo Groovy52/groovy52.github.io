@@ -9,6 +9,8 @@ permalink: /projects/sald-net/
 - Based on this dataset, SALD-Net was designed as a two-stage 3D detection architecture integrating point cloud preprocessing, class-balanced augmentation, and self-attention modules to jointly model local geometric features and global contextual dependencies.
 - Experimental results demonstrated strong detection and instance separation performance in cluttered scenes, achieving a 3D mAP of 89.08% and showing clear gains over baseline methods, particularly for challenging object classes such as beds and wheelchairs.
 
+---
+
 # 1. Overview
 
 **Autonomous mobile robots (AMRs) are increasingly deployed in hospitals** to mitigate workforce shortages through supporting tasks such as medication transport and patient guidance.
