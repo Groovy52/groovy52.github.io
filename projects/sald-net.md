@@ -4,8 +4,9 @@ title: SALD-Net
 permalink: /projects/sald-net/
 ---
 # Summary
-- This project presents a privacy-preserving 3D object detection framework for crowded hospital environments, where severe occlusion, object overlap, sensor noise, and class imbalance make robust perception difficult.
-- A hospital-specific Flash LiDAR point cloud dataset was constructed across four real clinical zones to capture complex indoor mobility scenarios without relying on RGB imagery.
+- This project presents a privacy-preserving 3D object detection framework for crowded hospital environments at the Medical Image Innovation Laboratory, Seoul National University, conducted during my master’s program and published in Signal, Image and Video Processing on September 22, 2025, as SALD-Net: Self-attention-integrated LiDAR-based 3D object detection network in a crowded hospital environment. 
+- The study addressed severe occlusion, object overlap, sensor noise, and class imbalance that make robust perception difficult. 
+- A hospital-specific Flash LiDAR point cloud dataset was constructed across four real clinical zones without relying on RGB imagery.
 - Based on this dataset, SALD-Net was designed as a two-stage 3D detection architecture integrating point cloud preprocessing, class-balanced augmentation, and self-attention modules to jointly model local geometric features and global contextual dependencies.
 - Experimental results demonstrated strong detection and instance separation performance in cluttered scenes, achieving a 3D mAP of 89.08% and showing clear gains over baseline methods, particularly for challenging object classes such as beds and wheelchairs.
 
