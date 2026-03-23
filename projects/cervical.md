@@ -4,6 +4,14 @@ title: cervical
 permalink: /projects/cervical/
 ---
 
+# Summary
+- This project presents a radiomics-based image quality screening framework for cervical image analysis at the Gachon AI Medical Device R&D Center, developed from July to November 2021 and published in the Journal of Biomedical Engineering Research on October 29, 2021, as A Radiomics-based Unread Cervical Imaging Classification Algorithm. 
+- The study began from the observation that non-diagnostic cervical images significantly degraded the performance of an AI-based staging classification system.
+- Based on prior studies and expert consultation, three screening criteria were defined: illumination inconsistency, image blur, and abnormal region-of-interest localization. A filtering framework was then designed using pixel intensity–based brightness, Laplacian-based blur estimation, and Euclidean distance–based center deviation to exclude diagnostically unsuitable images before model inference.
+- All indicators showed statistical significance (p < 0.0001), and the framework automatically filtered 257 non-diagnostic images from 2,257 samples, improving ResNet-50 performance from 68.55% to 92.31% in F1-score and from 0.77 to 0.97 in AUC.
+
+---
+
 # 1. Overview
 
 This study proposes a **radiomics-based pre-screening framework** to automatically identify and exclude unreadable medical images prior to deep learning model training.
